@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f6f6f6;
+}
+a{
+    font-size: 20px;
+    margin: 10px;
+}
+.active{
+    color: blueviolet;
+    font-size: 23px;
+}
+a:hover{
+    font-size: 23px;
+    text-decoration: none;
+    transition: ease-in-out;
+    transition: .4s;
+}
+.landing-container{
+    height: 100vh;
+}
+.landing{
+    /* height: 80vh; */
+    margin-left: 0;
+}
+@media screen and (max-width: 1000px){
+    .landing{
+        height: 80vh;
+        margin-left: 0;
+    }
+    
+}
+
+.img-landing img{
+    width: 50%;
+    border-radius: 10%;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 750px){
+    .landingH1{
+        font-size: 3rem;
+        line-height: 2em;
+    }
+
+}
+
